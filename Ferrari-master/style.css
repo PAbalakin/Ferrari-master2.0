@@ -1,0 +1,308 @@
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+  background-image: url('photos/Enzo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  background-color:#DC143C;
+  /* Margins */
+  font-family: 'Sonsie One', cursive;
+
+  margin:0 auto 0.5em auto;
+}
+.hero h2 {
+  /* Text styles */
+  font-size: 2em;
+  background-color:#880808;
+  /* Margins */
+  font-family: 'Carter One', cursive;
+  margin:0 auto 0.5em auto;
+}
+body{
+  margin:0;
+  padding:0;
+  height:1000px;
+}
+
+
+p {
+  color:whitesmoke;
+  font-family: 'Carter One', cursive;
+}
+
+#contentWrapper {
+	width: 742px;
+	position: relative;
+	border-left: 1px solid #111;
+	border-right: 1px solid #111;
+	background: #333;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	overflow: hidden;
+}
+#contentWrapper p {
+	line-height: 18px;
+}
+#contentMenu {
+	margin: 0px;
+	list-style: none;
+	width: 700px;
+	height: 35px;
+	padding-top: 20px;
+	padding-bottom: 11px;
+	padding-left: 12px;
+}
+#contentMenu li {
+	float: left;
+}
+#content {
+	float: left;
+	width: 530px;
+	position: relative;
+	margin-top: -12px;
+	padding-right: 9px;
+}
+#content h3 {
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 5px 0px;
+	clear: both;
+}
+#contentPanel {
+	clear: both;
+}
+#contentPanel p {
+	padding: 0px 20px 0px 2px;
+}
+#contentPanel #featuredShows {
+	width: 530px;
+	border: 1px solid #111;
+}
+#contentPanel #gallery {
+	margin-right: 25px;
+	margin-left: 25px;
+	text-align: center;
+	margin-top: -11px;
+	position: relative;
+	width: 483px;
+}
+#contentPanel #gallery a {
+	margin: 9px;
+	border: 1px solid #000;
+	float: left;
+}
+#contentPanel #gallery a:hover {
+	border: 1px solid #FFCF60;
+}
+#contentPanel tr {
+	width: 100%;
+}
+#contentPanel table {
+	margin-left: 0px;
+	width: 259px;
+	border-top: 2px solid #444;
+	border-left: 2px solid #444;
+	border-right: 2px solid #222;
+	border-bottom: 2px solid #222;
+	padding: 0;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+	margin-right: 9px;
+}
+#contentPanel table thead tr {
+	height: 0;
+	overflow: hidden;
+	display: none;
+}
+#contentPanel table caption {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family:  Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 5px;
+	background-color: #111;
+	text-align: left;
+	border: 2px solid #000;
+	color: #FFD737;
+}
+#contentPanel table td {
+	margin-left: 0;
+	padding: 6px 3px 6px 10px;
+	border: none;
+}
+.subColumn {
+	background-color: #222;
+	border: 1px solid #111;
+	display: inline;
+	float: left;
+	height: 260px;
+	overflow: hidden;
+	width: 259px;
+	margin-right: 9px;
+	margin-top: 9px;
+}
+#subContent1 {
+	clear: both;
+}
+#subContent2 .textSlider {
+	background-image: url(../img/bg-slider.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 260px;
+	width: 260px;
+}
+#subContent2 p {
+	padding: 0 10px;
+	margin-top: 4px;
+}
+#subContent2 h3  {
+	text-indent: -9000px;
+	height: 35px;
+	background-image: url(../img/ad-sliderheader.jpg);
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#subContent2 .textSlider #theJive {
+	background-position: center -1px;
+}
+#subContent2 .textSlider #philosophy {
+	background-position: center -41px;
+}
+#subContent3 {
+	width: 198px;
+	margin-right: 0px;
+}
+
+#contentMenu li a {
+	text-indent: -9000px;
+	display: block;
+	height: 23px;
+	background-repeat: no-repeat;
+	background-image: url(../img/content-menu-text.png);
+	margin-right: 10px;
+}
+#contentMenu li a:hover, #contentMenu li a:focus {
+	outline: none;
+}
+#contentMenu li #happening {
+	width: 190px;
+	background-position: 0 -46px;
+}
+#contentMenu li #happening:hover, #contentMenu li #happening:focus {
+	background-position: 0 -23px;
+}
+#contentMenu li #happening.activeContent {
+	background-position: 0 0px;
+}
+#contentMenu li #menu {
+	width: 193px;
+	background-position: -190px -46px;
+}
+#contentMenu li #menu:hover, #contentMenu li #menu:focus {
+	background-position: -190px -23px;
+}
+#contentMenu li #menu.activeContent {
+	background-position: -190px 0;
+}
+#contentMenu li #directions {
+	width: 102px;
+	background-position: -383px -46px;
+}
+#contentMenu li #directions:hover, #contentMenu li #directions:focus {
+	background-position: -383px -23px;
+}
+#contentMenu li #directions.activeContent {
+	background-position: -383px 0;
+}
+#accordionNav {
+	float: right;
+	width: 199px;
+	background-color: #333;
+	border: 1px solid #111;
+	margin-top: -57px;
+}
+#accordionNav h3 {
+	font-size: 14px;
+	margin: 0;
+}
+#accordionNav img {
+	padding-bottom: 8px;
+}
+#accordionNav a {
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	outline: none;
+}
+#accordionNav a:hover {
+	color: #ffcf60;
+}
+.accordion {
+	overflow: hidden;
+	outline: none;
+}
+.accordionPanel {
+	margin: 0;
+	padding: 0;
+}
+.accordionPanelTab {
+	background-color: #555;
+	background-image: url('../img/stripes.png');
+	margin: 0;
+	cursor: pointer;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.accordionPanelTab:hover {
+	color: #EB5406;
+}
+.accordionPanelContent {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 500px;
+  text-align: center;
+}
+.highlight {
+	color: #EB5406;
+	background-color:  #ECAA4D;
+}
+h7 {
+  background-color:  #ECAA4D;       
+  display: inline-block; 
+  padding: 0 6px;
+  color:whitesmoke;
+}
