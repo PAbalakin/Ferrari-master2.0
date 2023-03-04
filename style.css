@@ -32,14 +32,16 @@
   font-family: 'Carter One', cursive;
   margin:0 auto 0.5em auto;
 }
+/* Background image */
 body{
   margin:0;
   padding:0;
-  height:1000px;
-  background-image: url("https://wallpapercave.com/wp/wp6634537.jpg");
-	background-repeat: no-repeat;
-    background-size: cover;
-	z-index: -100;
+ 
+  background-image: url("https://media.gq-magazine.co.uk/photos/5d13a994b6fee939c5c9fdd6/master/w_1920,h_1280,c_limit/2_gq_greatest_ferraris_dino_246-gq-27nov18_b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -100;
+  
 }
 
 
@@ -47,7 +49,7 @@ p {
   color:whitesmoke;
   font-family: 'Carter One', cursive;
 }
-
+/* Core Content sizing */
 #contentWrapper {
 	width: 742px;
 	position: relative;
@@ -60,7 +62,6 @@ p {
 	padding-bottom: 10px;
 	padding-left: 8px;
 	overflow: hidden;
-	
 }
 #contentWrapper p {
 	line-height: 18px;
@@ -77,7 +78,21 @@ p {
 #contentMenu li {
 	float: left;
 }
-
+#content {
+	float: left;
+	width: 530px;
+	position: relative;
+	margin-top: -12px;
+	padding-right: 9px;
+}
+#content h3 {
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 5px 0px;
+	clear: both;
+}
 #contentPanel {
 	clear: both;
 }
@@ -251,8 +266,8 @@ p {
 	padding-left: 8px;
 	outline: none;
 }
-#accordionNav a:hover {
-	color: #ffcf60;
+#FerrariNav a:hover {
+	color: 	#8B0000;
 }
 .accordion {
 	overflow: hidden;
@@ -287,10 +302,12 @@ p {
 	height: 500px;
   text-align: center;
 }
+/* Highlight */
 .highlight {
 	color: #EB5406;
-	background-color:  #ECAA4D;
+	background-color:  	#8B0000;
 }
+/* Text */
 h7 {
   background-color:  #ECAA4D;       
   display: inline-block; 
